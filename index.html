@@ -7,12 +7,97 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <script src="https://kit.fontawesome.com/d688df6861.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
     <header>
-        
+        <div class="header-bg">
+            <div class="header-block">
+                <div class="logo"> <img src="images/Group365.svg" alt="logo"></div>
+                <div>
+                    <nav>
+                        <ul class="nav-ul">
+                            <li> <a class="nav-a" href="#"> Projects </a> </li>
+                            <li> <a class="nav-a" href="#"> FAQ </a> </li>
+                            <li> <a class="nav-a" href="#"> Masters </a> </li>
+                            <li> <a class="nav-a" href="#"> Classes </a> </li>
+                            <li> <a class="nav-a" href="#"> Course Experience </a> </li>
+                            <li> <a class="nav-a" href="#"> About us </a> </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="register"> <a class="registerH3"> Register </a> </div>
+
+            </div>
+
+            <div class="main-block">
+                <div class="right-block">
+                    <h3 class="right-block-main-title"> Product Design Course  </h3>
+                    <h4 class="right-block-second-title"> Product Factory </h4>
+                    <p class="main-block-paragraph"> Learn how design thinking, user research, business vision and marketing, and finally designing and creating real digital products for real users. </p>
+                    <div class="start-register-div"> <h3 class="Start-Register"> Start Register </h3> </div>
+                </div>
+
+                <div class="left-block"> <img class="left-photo" src="images/kiauxcourse.jpg" alt="kiauxcourse"> </div>
+            </div>
+        </div>
+
+        <div id="burger-menu" class="burger-icon">
+            <i class="fas fa-bars"></i>
+        </div>
     </header>
+
+    <section id="projects">
+        <div class="project-block">
+            <div class="project-head-photo"> <img class="project-photo" src="images/Group848.jpg" alt="Group848"> </div>
+
+            <div class="two-project-block">
+                <div class="project-blocks">
+                    <h3 class="design-to-do-list"> <i class="fas fa-circle"></i>  Design To Do List app </h3>
+                    <p class="the-previous-student"> The previous student design project was the To Do List application product factory, The counter examples are the result of the efforts of the students and their teamwork in the first course. </p>
+                    <h3 class="correct-list"> <i class="fas fa-check-circle"></i>  Experience teamwork in a real product team and a collaborative effort for a common goal. </h3>
+                    <h3 class="correct-list"> <i class="fas fa-check-circle"></i>  Survey real users and needs assessment and find the most suitable solution to their problems. </h3>
+                    <h3 class="correct-list"> <i class="fas fa-check-circle"></i>  Design experience from notebooks to user interface design software. </h3>
+                    <div class="page"> <h3> 4 / 15 </h3> </div>
+                </div>
+
+                <div class="project-blocks">
+                    <div class="gallery js-flickity"
+                         data-flickity-options='{ "wrapAround": true }'>
+                        <div class="gallery-cell"> <img src="images/photo-1514782831304-632d84503f6f.jpg" alt="todolist"></div>
+                        <div class="gallery-cell"> <img src="images/0c521e93b856f1f4fc68b011dbd8ada2.jpg" alt="todolist"></div>
+                        <div class="gallery-cell"> <img src="images/134043f7d4657bbfaa5d98ca807393bb.jpg" alt="todolist"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="FAQ">
+        <div class="asked-questions-block">
+            <div class="faq-titles">
+                <div class="faq-photo-div"> <img class="faq-photo" src="images/FAQ.jpg" alt="faq"></div>
+                <h3 class="faq-title-second"> Frequently Asked Questions </h3>
+            </div>
+
+            <div class="questions-block">
+                <div class="faq-block"> <h3 class="faq-questions"> Does this course need any special requirements? </h3> <i class="fas fa-plus"></i> </div>
+                <div class="faq-block"> <h3 class="faq-questions"> Who are the audiences of the product design period of the product factory? </h3> <i class="fas fa-plus"></i> </div>
+                <div class="faq-block"> <h3 class="faq-questions"> Is it possible to pay by installments? </h3> <i class="fas fa-plus"></i> </div>
+                <div class="faq-block"> <h3 class="faq-questions"> Can I start an internship after I finish the course? </h3> <i class="fas fa-plus"></i> </div>
+                <div class="faq-block"> <h3 class="faq-questions"> What should I do after I finish the course? </h3> <i class="fas fa-plus"></i> </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

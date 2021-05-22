@@ -1,0 +1,31 @@
+@media (max-width: 1400px){
+    .project-blocks {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1130px){
+    .nav-ul {
+        display: none;
+    }
+    .burger-icon{
+        color: #fff;
+        display: block;
+        font-size: 30px;
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        cursor:pointer;
+      }
+}
+@media (max-width: 650px){
+    .right-block-main-title {
+        font-size: 35px;
+    }
+    .left-block {
+        margin-top: 50px;
+    }
+    .register {
+        display: none;
+    }
+}

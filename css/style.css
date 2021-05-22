@@ -1,0 +1,191 @@
+/* header */
+
+.header-bg {
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.header-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.nav-a {
+    margin-left: 50px;
+    color: white;
+    font-family: 'Peddana', serif;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.logo {
+    margin-top: 40px;
+}
+.register,
+.page {
+    max-width: 151px;
+    width: 100%;
+    height: 51px;
+    border-radius: 31px;
+    background-color: #707070;
+    margin-top: 30px;
+    padding: 15px 45px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.main-block {
+    max-width: 1260px;
+    width: 100%;
+    height: 788px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 159px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.right-block {
+    max-width: 530px;
+    width: 100%;
+    height: 569px;
+    padding: 40px 20px;
+}
+.right-block-main-title {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+}
+.right-block-second-title {
+    color: #8D8D8D;
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.main-block-paragraph {
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.start-register-div {
+    max-width: 300px;
+    width: 100%;
+    height: 72px;
+    background-color: #F46632;
+    border-radius: 16px;
+    padding: 20px 65px;
+}
+.Start-Register {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.left-block {
+    max-width: 531px;
+    width: 100%;
+    height: 570px;
+}
+.left-photo,
+.project-photo,
+.faq-photo {
+    width: 100%;
+}
+.burger-icon {
+    display: none;
+}
+
+/* sections */
+
+.project-block {
+    margin: auto;
+    max-width: 1460px;
+    width: 100%;
+    height: 996px;
+}
+.two-project-block {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.project-blocks {
+    max-width: 689px;
+    width: 100%;
+    height: 579px;
+    margin-top: 112px;
+}
+.project-head-photo,
+.faq-photo-div {
+    max-width: 450px;
+    width: 100%;
+    height: 159px;
+    margin: auto;
+}
+.design-to-do-list {
+    font-size: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+.the-previous-student {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+.correct-list {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+}
+.fa-check-circle {
+    color: #29D089;
+}
+.gallery-cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+}
+  
+  /* cell number */
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.asked-questions-block {
+    margin: auto;
+    background-color: #F8F8F8;
+    max-width: 1460px;
+    width: 100%;
+    height: 808px;
+}
+.faq-titles {
+    margin: 0 auto;
+}
+.faq-title-second {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+}
+.questions-block {
+    margin-top: 100px;
+}
+.faq-block {
+    max-width: 1460px;
+    width: 100%;
+    height: 87px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 26px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 15px;
+}
+.faq-questions {
+    font-size: 21px;
+    font-family: 'Roboto', sans-serif;
+}
