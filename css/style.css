@@ -177,7 +177,8 @@
 }
 .left-photo,
 .project-photo,
-.faq-photo {
+.faq-photo,
+.experi-ph {
     width: 100%;
 }
 .burger-icon {
@@ -433,7 +434,7 @@
 .classes-main-block {
     margin-top: 100px;
 }
-.first-session {
+.session {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -458,4 +459,58 @@
 .dates {
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+.dates:hover {
+    color: #F46632;
+}
+
+/* section 5 */
+.experience-block {
+    margin-top: 100px;
+    background-image: url(../images/photo-1487611459768-bd414656ea10.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dives {
+    max-width: 360px;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    border: black solid 5px;
+    padding: 20px 70px;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    color: white;
+}
+.three-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.experience-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.exp-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 50px;
+}
+.exp-p {
+    max-width: 770px;
+    width: 100%;
+    height: 268px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    margin-top: 30px;
+}
+.exp-photo {
+    max-width: 243px;
+    width: 100%;
+    height: 268px;
 }
