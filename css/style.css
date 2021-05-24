@@ -179,7 +179,8 @@
 .project-photo,
 .faq-photo,
 .experi-ph,
-.about-us-photo {
+.about-us-photo,
+.reg-img {
     width: 100%;
 }
 .burger-icon {
@@ -604,13 +605,27 @@
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
 }
+.course-fee-li {
+    max-width: 720px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
 .course-fee-answers {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    margin-top: 30px;
+    color: white;
+}
+.course-fee-li:hover,
+.course-fee-answers:hover {
+    background-color: #F46632;
+    color: black;
 }
 .course-fee-left-block {
-    max-width: 474px;
+    max-width: 374px;
     width: 100%;
     height: auto;
     background-color: black;
@@ -625,12 +640,11 @@
 .register-click {
     max-width: 196px;
     width: 100%;
-    height: 48px;
+    height: auto;
     background-color: #F46632;
     border-radius: 30px;
     padding: 15px 45px;
-    margin-top: 20px;
-    margin-left: 50px;
+    margin: 30px auto;
 }
 .register-click:hover,
 .register-now:hover {
@@ -647,6 +661,14 @@
     margin-top: 100px;
     background-color: black;
 }
+.registration-main-block {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 .fname {
     max-width: 557px;
@@ -657,9 +679,12 @@
     border: none;
     font-size: 20px;
     padding-left: 20px;
+    margin-top: 20px;
+}
+.form-text {
+    margin-left: 10px;
 }
 .registration-forms {
-    margin: auto;
     max-width: 721px;
     width: 100%;
     height: auto;
@@ -669,9 +694,9 @@
     font-family: 'Roboto', sans-serif;
 }
 .submit {
-    max-width: 196px;
+    max-width: 557px;
     width: 100%;
-    height: 48px;
+    height: 62px;
     background-color: #F46632;
     border-radius: 30px;
     border: none;
@@ -685,4 +710,9 @@
 }
 input:focus {
 	outline: none;
+}
+.registration-image {
+    max-width: 521px;
+    width: 100%;
+    height: auto;
 }

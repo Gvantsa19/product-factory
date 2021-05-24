@@ -21,6 +21,11 @@
           margin-top: 50px;
       }
 }
+@media (max-width: 804px){
+    .registration-image {
+        margin-top: 20px;
+    }
+}
 @media (max-width: 650px){
     .right-block-main-title {
         font-size: 35px;
