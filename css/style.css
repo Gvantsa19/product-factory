@@ -550,9 +550,18 @@
     line-height: 2;
     color: white;
 }
+.about-paragraph:hover {
+    color: #F46632;
+}
 .about-us {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
+}
+.about-us:hover,
+.twitter:hover,
+.facebook:hover,
+.instagram:hover {
+    color: white;
 }
 .about-paragraph-div {
     max-width: 1300px;
@@ -562,4 +571,73 @@
     background-color: black;
     border-radius: 31px;
     padding: 20px 45px;
+}
+
+/* section 7 */
+.course-fee-block {
+    margin-top: 100px;
+    background-image: url(../images/photo-1527689368864-3a821dbccc34.jpg);
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px;
+}
+.course-fee-blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.course-fee-right-block {
+    max-width: 701px;
+    width: 100%;
+    height: auto;
+}
+.course-fee-title {
+    font-size: 44px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+}
+.course-fee-question {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.course-fee-answers {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.course-fee-left-block {
+    max-width: 474px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border-radius: 30px;
+}
+.fee-toman {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.register-click {
+    max-width: 196px;
+    width: 100%;
+    height: 48px;
+    background-color: #F46632;
+    border-radius: 30px;
+    padding: 15px 45px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.register-click:hover,
+.register-now:hover {
+    background-color: white;
+    color: #F46632;
+}
+.register-now {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
