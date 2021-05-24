@@ -641,3 +641,48 @@
     font-family: 'Roboto', sans-serif;
     color: white;
 }
+
+/* section 8 */
+.registration-block {
+    margin-top: 100px;
+    background-color: black;
+}
+
+.fname {
+    max-width: 557px;
+    width: 100%;
+    height: 62px;
+    border-radius: 30px;
+    background-color: #707070;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.registration-forms {
+    margin: auto;
+    max-width: 721px;
+    width: 100%;
+    height: auto;
+}
+.form-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.submit {
+    max-width: 196px;
+    width: 100%;
+    height: 48px;
+    background-color: #F46632;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.submit:hover {
+    background-color: white;
+    color: black;
+}
+input:focus {
+	outline: none;
+}
