@@ -3,6 +3,11 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 1234px){ 
+    .course-fee-left-block {
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 1130px){
     .nav-ul {
@@ -35,5 +40,8 @@
     }
     .register {
         display: none;
+    }
+    .course-fee-answers {
+        font-size: 15px;
     }
 }

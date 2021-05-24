@@ -637,6 +637,15 @@
     margin-top: 50px;
     margin-left: 50px;
 }
+.registration-titles {
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}
+.reg-titles-block {
+    margin: 30px 50px;
+}
 .register-click {
     max-width: 196px;
     width: 100%;
