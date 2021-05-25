@@ -26,6 +26,11 @@
           margin-top: 50px;
       }
 }
+@media (max-width: 950px){
+    .footer-email-block {
+        margin-top: 30px;
+    }
+}
 @media (max-width: 804px){
     .registration-image {
         margin-top: 20px;
@@ -43,5 +48,10 @@
     }
     .course-fee-answers {
         font-size: 15px;
+    }
+}
+@media (max-width: 410px){
+    .helpf-links {
+        margin-top: 30px;
     }
 }
