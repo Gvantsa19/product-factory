@@ -125,7 +125,7 @@ html {
     margin-bottom: 60px;
 }
 .right-block-second-title {
-    color: #8D8D8D;
+    color: white;
     font-size: 38px;
     font-family: 'PT Serif', serif;
     margin-top: 20px;
@@ -254,7 +254,8 @@ html {
     color: #29D089;
 }
 .gallery-cell {
-    width: 60%;
+    max-width: 600px;
+    width: 100%;
     height: 500px;
     margin-right: 10px;
 }
@@ -522,7 +523,7 @@ html {
 }
 .experience-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
 }
 .exp-box {
