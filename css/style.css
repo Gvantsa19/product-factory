@@ -2,16 +2,12 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
-section {
-    width: 100%;
-    height: 100%;
-}
 /* header */
 
 .header-bg {
     background-image: url(../images/photo-1542744173-8e7e53415bb0.jpg);
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,11 +17,19 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    /* background-color: black; */
+    backdrop-filter: blur(8px);
+    width: 100%;
+    height: auto;
+    padding: 10px;
 }
 .nav-ul {
     display: flex;
     justify-content: space-around;
-    margin-top: 40px;
+    margin-top: 15px;
     padding-left: 40px;
 }
 .nav-a {
@@ -38,7 +42,7 @@ section {
     cursor: pointer;
     outline: 3px solid;
     outline-color: black(98, 100, 105, 0.5);
-    outline-offset: 10px;
+    outline-offset: 5px;
     transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .nav-a:hover {
@@ -46,7 +50,7 @@ section {
     color: #F36732;
 }
 .logo {
-    margin-top: 40px;
+    margin-top: 15px;
 }
 .register:hover {
     color: white;
@@ -92,26 +96,22 @@ section {
     width: 100%;
     height: 51px;
     border-radius: 31px;
+    border: none;
     background-color: #F36732;
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 15px 45px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 .main-block {
-    max-width: 1160px;
+    max-width: 1060px;
     width: 100%;
     height: auto;
     border-radius: 30px;
-    background-color: white;
-    margin: 100px auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin: auto;
     flex-wrap: wrap;
-}
-.left-photo {
-    width: 50%;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .right-block {
     max-width: 530px;
@@ -120,21 +120,27 @@ section {
     padding: 40px 20px;
 }
 .right-block-main-title {
-    font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-family: 'PT Serif', serif;
     margin-bottom: 60px;
 }
 .right-block-second-title {
     color: #8D8D8D;
     font-size: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     margin-top: 20px;
     margin-bottom: 70px;
 }
 .main-block-paragraph {
     font-size: 23px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Serif', serif;
     margin-bottom: 50px;
+    font-weight: bolder;
+}
+.main-block-paragraph-div {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 .start-register-div {
     max-width: 250px;
@@ -182,11 +188,11 @@ section {
     color: white;
     white-space: nowrap;
 }
-.left-block {
+/* .left-block {
     max-width: 531px;
     width: 100%;
     height: 570px;
-}
+} */
 .left-photo,
 .project-photo,
 .faq-photo,
@@ -204,9 +210,9 @@ section {
     width: 100%;
     height: 100%;
     background-color: black;
-    /* margin-bottom: 100px; */
     flex-wrap: wrap;
     padding: 50px;
+    margin-top: 20px;
 }
 .two-project-block {
     display: flex;
@@ -286,6 +292,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 50px;
+    margin-top: 20px;
 }
 .faq-titles {
     margin: auto;
@@ -354,6 +361,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 20px;
+    margin-top: 20px;
 }
 .masters-blocks {
     display: flex;
@@ -447,6 +455,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 50px;
+    margin-top: 20px;
 }
 .session {
     display: flex;
@@ -487,6 +496,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
+    margin-top: 80px;
 }
 .dives {
     max-width: 360px;
@@ -513,6 +523,7 @@ section {
 .experience-title {
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
+    margin-top: 20px;
 }
 .exp-box {
     display: flex;
@@ -544,6 +555,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
+    margin-top: 20px;
 }
 .about-top-block {
     display: flex;
@@ -594,6 +606,7 @@ section {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
+    margin-top: 20px;
 }
 .course-fee-blocks {
     display: flex;
@@ -683,6 +696,7 @@ section {
     width: 100%;
     height: 100%;
     padding: 80px;
+    margin-top: 20px;
 }
 .registration-main-block {
     width: 100%;
