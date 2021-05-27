@@ -8,23 +8,25 @@
         margin-top: 30px;
     }
 }
-
 @media (max-width: 1130px){
     .nav-ul {
         display: none;
+        position: absolute;
+        top: 12vh;
+        min-width: 100%;
+        background: rgba(15, 20, 35, 0.99);
+        text-align: center;
     }
     .burger-icon{
         color: white;
         display: block;
         font-size: 30px;
-        position: absolute;
         top: 30px;
         right: 30px;
-        cursor:pointer;
-      }
-      .dives {
-          margin-top: 50px;
-      }
+    }
+    .dives {
+        margin-top: 50px;
+    }
 }
 @media (max-width: 950px){
     .footer-email-block {
@@ -49,9 +51,19 @@
     .course-fee-answers {
         font-size: 15px;
     }
+    .page,
+    .faq-block {
+        margin-top: 30px;
+    }
+    .gallery-cell {
+        margin-top: 100px;
+    }
 }
 @media (max-width: 410px){
     .helpf-links {
         margin-top: 30px;
+    }
+    .page {
+        margin-top: 50px;
     }
 }
