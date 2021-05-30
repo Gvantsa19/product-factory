@@ -9,23 +9,35 @@
     }
 }
 @media (max-width: 1130px){
-    .nav-ul {
-        display: none;
-        position: absolute;
-        top: 12vh;
-        min-width: 100%;
-        background: rgba(15, 20, 35, 0.99);
-        text-align: center;
-    }
+    .wrapper, 
+    ul{
+      display: block;
+      text-align: center;
+    }   
+    .nav-a{
+      display: block;
+      outline: none;
+    }  
     .burger-icon{
-        color: white;
-        display: block;
-        font-size: 30px;
-        top: 30px;
-        right: 30px;
+      color: #fff;
+      display: block;
+      font-size: 30px;
+      position: absolute;
+      top: 40px;
+      right: 30px;
+      cursor:pointer;
     }
+    .menu-ul{
+      display: none;
+    }   
+    .menu-ul.open-menu{
+      display: block;
+    } 
     .dives {
         margin-top: 50px;
+    }
+    .register {
+        display: none;
     }
 }
 @media (max-width: 950px){
@@ -44,9 +56,6 @@
     }
     .left-block {
         margin-top: 50px;
-    }
-    .register {
-        display: none;
     }
     .course-fee-answers {
         font-size: 15px;

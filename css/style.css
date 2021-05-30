@@ -3,71 +3,9 @@ html {
     scroll-snap-type: y mandatory;
 }
 /* header */
-
-/* .header-wraper{
-    background: grey;
-    padding: 30px 0;
-    position: relative;
-}
-.wrapper{
-    max-width: 1170px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-a{
-    color: #fff;
-    padding: 7px 15px;
-}
-ul{
-    padding: 20px 0;
-    display: flex;
-}
 .burger-icon {
     display: none;
 }
-
-@media (max-width: 768px){
-    .wrapper, 
-    ul{
-      display: block;
-      text-align: center;
-    }   
-    .nav-a{
-      display: block;
-    }  
-    .social-icons{
-      display: flex;
-      justify-content: center; 
-    } 
-    .logo{
-      text-align: left;
-    }
-    .burger-icon{
-      color: #fff;
-      display: block;
-      font-size: 30px;
-      position: absolute;
-      top: 40px;
-      right: 30px;
-      cursor:pointer;
-    }
-    .menu-ul,
-    .social-icons{
-      display: none;
-    }   
-    .menu-ul.open-menu{
-      display: block;
-    } 
-    .social-icons.open-socicon{
-      display: flex;
-    } 
-  } */
-
 .header-bg {
     background-image: url(../images/photo-1521737604893-d14cc237f11d.jpg);
     width: 100%;
@@ -84,8 +22,8 @@ ul{
     position: fixed;
     top: 0;
     z-index: 1;
-    /* backdrop-filter: blur(8px); */
-    background-color: black;
+    backdrop-filter: blur(8px);
+    /* background-color: black; */
     width: 100%;
     height: auto;
     padding: 10px;
@@ -104,13 +42,13 @@ ul{
     white-space: nowrap;
     font-weight: bolder;
     cursor: pointer;
-    outline: 3px solid;
+    outline: 2px solid;
     outline-color: black(98, 100, 105, 0.5);
     outline-offset: 5px;
     transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
 .nav-a:hover {
-    outline-offset: 20px;
+    outline-offset: 15px;
     color: black;
 }
 .logo {
@@ -373,7 +311,7 @@ ul{
 .faq-block {
     max-width: 1160px;
     width: 100%;
-    height: 87px;
+    height: auto;
     background-color: black;
     margin-top: 20px;
     padding: 20px 15px;
@@ -529,7 +467,7 @@ ul{
     flex-wrap: wrap;
     background-color: black;
     width: 100%;
-    height: 53px;
+    height: auto;
     padding-top: 20px;
 }
 .photo-and-paragraph {
@@ -841,6 +779,9 @@ input:focus {
     color: white;
     font-family: 'Roboto', sans-serif;
     margin-top: 15px;
+}
+.footer-li {
+    margin-top: 20px;
 }
 .contact-us {
     color: #F46632;
