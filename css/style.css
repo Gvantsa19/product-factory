@@ -358,7 +358,7 @@ body {
 
 /* section 3 */
 .masters-section {
-    background-image: url(../images/4e055a0dfdf79536824948313c4dd710.jpg);
+    background-image: url(../images/abstract-technological-background_23-2148897676.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 1500px;
@@ -484,6 +484,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 2;
     margin: auto;
+    color: white;
 }
 .dates {
     color: white;
@@ -495,13 +496,15 @@ body {
 
 /* section 5 */
 .experience-block {
-    background-image: url(../images/photo-1519219788971-8d9797e0928e.jpg);
+    background-image: url(../images/d3eb2014c38294c63429d6890683fedc.jpg);
+    max-width: 1500px;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
-    margin-top: 80px;
+    margin: 20px auto;
+    border-radius: 30px;
 }
 .dives {
     max-width: 360px;
@@ -529,6 +532,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
     margin-top: 20px;
+    color: white;
 }
 .exp-box {
     display: flex;
@@ -545,6 +549,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 2;
     margin-top: 50px;
+    color: white;
 }
 .exp-photo {
     max-width: 243px;
@@ -554,13 +559,15 @@ body {
 
 /* section 6 */
 .about-us-block {
-    /* background-image: url(../images/photo-1520032484190-e5ef81d87978.jpg); */
+    background-image: url(../images/f31e57d377e635a5345673ae81caebcb.jpg);
+    max-width: 1500px;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 50px;
-    margin-top: 20px;
+    margin: 20px auto;
+    border-radius: 30px;
 }
 .about-top-block {
     display: flex;
@@ -605,13 +612,15 @@ body {
 
 /* section 7 */
 .course-fee-block {
-    background-image: url(../images/photo-1448932223592-d1fc686e76ea.jpg);
+    background-image: url(../images/halftone-background-with-circles_23-2148907689.jpg);
+    max-width: 1500px;
     width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 80px;
-    margin-top: 20px;
+    margin: 20px auto;
+    border-radius: 30px;
 }
 .course-fee-blocks {
     display: flex;
@@ -629,11 +638,13 @@ body {
     font-size: 44px;
     font-family: 'Roboto', sans-serif;
     margin-left: 50px;
+    color: white;
 }
 .course-fee-question {
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 30px;
+    color: white;
 }
 .course-fee-li {
     max-width: 720px;
@@ -698,11 +709,15 @@ body {
 
 /* section 8 */
 .registration-block {
-    background-color: black;
+    background-image: url(../images/overlapping-forms-background_23-2148648602.jpg);
+    max-width: 1500px;
     width: 100%;
     height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 80px;
-    margin-top: 20px;
+    margin: 20px auto;
+    border-radius: 30px;
 }
 .registration-main-block {
     width: 100%;
@@ -711,7 +726,6 @@ body {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
-    margin: 50px;
 }
 
 .fname {
