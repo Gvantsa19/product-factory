@@ -213,12 +213,6 @@ body {
     flex-wrap: wrap;
     padding: 50px;
 }
-.two-project-block {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
 .project-blocks {
     max-width: 1150px;
     width: 100%;
@@ -228,68 +222,28 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.project-head-photo,
-.faq-photo-div {
-    max-width: 450px;
-    width: 100%;
-    height: 159px;
-    margin: auto;
-}
 .design-to-do-list {
     font-size: 38px;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
-.the-previous-student {
-    font-size: 20px;
-    margin-top: 30px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
 .svg-photos {
-    margin: 0 30%;
+    margin: 20px 30%;
 }
 .correct-list {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
+    margin-left: 10px;
     color: white;
 }
-.fa-check-circle {
-    color: #29D089;
-}
-.gallery-cell {
-    max-width: 500px;
+.prj-block {
+    max-width: 350px;
     width: 100%;
-    height: 500px;
-    margin-right: 10px;
+    height: 300px;
+    background-color: rgb(25, 8, 121);
+    border-radius: 30px;
 }
-.page {
-    transition: all 0.5s;
-    cursor: pointer;
-    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-}
-.page:after {
-    content: '»';
-    position: absolute;
-    opacity: 0;  
-    top: 14px;
-    right: -20px;
-    transition: 0.5s;
-} 
-.page:hover{
-    padding-right: 24px;
-    padding-left:8px;
-}
-.page:hover:after {
-    opacity: 1;
-    right: 10px;
-}
-
 /* section 2 */
 .asked-questions-block {
     background-image: url(../images/d3eb2014c38294c63429d6890683fedc.jpg);
@@ -303,12 +257,10 @@ body {
     border-radius: 30px;
 }
 @import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
-
 .faq-container {
   max-width: 600px;
   margin: 0 auto;
 }
-
 .faq {
   background-color: transparent;
   border: 1px solid white;
@@ -319,12 +271,10 @@ body {
   overflow: hidden;
   transition: 0.3 ease;
 }
-
 .faq.active {
   background-color: #fff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-
 .faq.active::before,
 .faq.active::after {
   content: "\f075";
@@ -337,31 +287,27 @@ body {
   left: 20px;
   z-index: 0;
 }
-
 .faq.active::before {
   color: #3498db;
   top: -10px;
   left: -30px;
   transform: rotateY(180deg);
 }
-
 .faq-title {
   margin: 0 35px 0 0;
   color: white;
   font-family: 'Roboto', sans-serif;
 }
-
 .faq-text {
   display: none;
   margin: 30px 0 0;
+  font-family: 'Roboto', sans-serif;
 }
-
 .faq.active .faq-text {
   display: block;
 }
-
 .faq-toggle {
-  background-color: transparent;
+  background-color: rgb(29, 19, 161);
   color: white;
   border: 0;
   border-radius: 50%;
@@ -377,26 +323,21 @@ body {
   height: 30px;
   width: 30px;
 }
-
 .faq-toggle:focus {
   outline: 0;
 }
-
 .faq-toggle .fa-times {
   display: none;
 }
-
 .faq.active .faq-toggle .fa-times {
   color: #fff;
   display: block;
 }
-
 .faq.active .faq-toggle .fa-chevron-down {
   display: none;
 }
-
 .faq.active .faq-toggle {
-  background-color: #9fa4a8;
+  background-color: #3621aa;
 }
 /* section 3 */
 .masters-section {
