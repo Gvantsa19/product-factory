@@ -444,13 +444,13 @@ body {
 }
 .facebook,
 .twitter {
-    color: black;
+    color: white;
     font-size: 40px;
     margin-left: 10px;
 }
 .instagram {
     font-size: 40px;
-    color: black;
+    color: white;
     margin-left: 10px;
 }
 
@@ -593,12 +593,13 @@ body {
 .about-us {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
+    color: white;
 }
 .about-us:hover,
 .twitter:hover,
 .facebook:hover,
 .instagram:hover {
-    color: white;
+    color: black;
 }
 .about-paragraph-div {
     max-width: 1500px;
@@ -777,10 +778,12 @@ input:focus {
 
 /* footer */
 .footer-block {
-    background-color: black;
+    background-image: url(../images/photo-1557683316-973673baf926.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
     height: auto;
-    margin-top: 100px;
+    margin:20px auto;
     padding: 50px 40px;
     display: flex;
     justify-content: space-around;
