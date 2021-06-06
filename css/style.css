@@ -220,10 +220,13 @@ body {
     align-items: center;
 }
 .project-blocks {
-    max-width: 650px;
+    max-width: 1150px;
     width: 100%;
-    height: 579px;
+    height: auto;
     margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .project-head-photo,
 .faq-photo-div {
@@ -242,6 +245,9 @@ body {
     margin-top: 30px;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+.svg-photos {
+    margin: 0 30%;
 }
 .correct-list {
     font-size: 20px;
@@ -307,14 +313,14 @@ body {
     margin-top: 100px;
 }
 .faq-block {
-    max-width: 1160px;
+    max-width: 360px;
     width: 100%;
-    height: auto;
-    background-color: black;
+    height: 300px;
+    background-color: #2e099c;
     margin-top: 20px;
     padding: 20px 15px;
     border-radius: 50px;
-    border: 3px solid black;
+    border: 3px solid #2e099c;
     color: white;
 }
 .faq-questions {
