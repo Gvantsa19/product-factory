@@ -302,65 +302,102 @@ body {
     margin: 20px auto;
     border-radius: 30px;
 }
-.faq-titles {
-    margin: auto;
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
 }
-.faq-title {
-    font-size: 32px;
-    font-family: 'Roboto', sans-serif;
+
+.faq {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3 ease;
 }
-.questions-block {
-    margin-top: 100px;
+
+.faq.active {
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
 }
-.faq-block {
-    max-width: 360px;
-    width: 100%;
-    height: 300px;
-    background-color: #2e099c;
-    margin-top: 20px;
-    padding: 20px 15px;
-    border-radius: 50px;
-    border: 3px solid #2e099c;
-    color: white;
-}
-.faq-questions {
-    font-size: 21px;
-    font-family: 'Roboto', sans-serif;
-    overflow: hidden;
-    background: transparent;
-    text-transform: uppercase;
-    transition: all .35s;
-}
-.faq-questions:before,
-.faq-questions:after{
+
+.faq.active::before,
+.faq.active::after {
+  content: "\f075";
+  font-family: "Font Awesome 5 Free";
+  color: #2ecc71;
+  font-size: 7rem;
   position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: -100%;
-  left: 0;
-  background: seagreen;
-  z-index: -1;
-  transition: all .35s;
+  opacity: 0.2;
+  top: 20px;
+  left: 20px;
+  z-index: 0;
 }
 
-.faq-block:before{
-  opacity: .5;
+.faq.active::before {
+  color: #3498db;
+  top: -10px;
+  left: -30px;
+  transform: rotateY(180deg);
 }
 
-.faq-block:after{
-  transition-delay: .2s;
+.faq-title {
+  margin: 0 35px 0 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
-.faq-block:hover{
-  color: #F46632;
+.faq-text {
+  display: none;
+  margin: 30px 0 0;
 }
 
-.faq-block:hover:before,
-.faq-block:hover:after{
-  top: 0;
+.faq.active .faq-text {
+  display: block;
 }
 
+.faq-toggle {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+.faq-toggle:focus {
+  outline: 0;
+}
+
+.faq-toggle .fa-times {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
 /* section 3 */
 .masters-section {
     background-image: url(../images/abstract-technological-background_23-2148897676.jpg);
