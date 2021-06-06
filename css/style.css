@@ -87,7 +87,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #000000;
+  background: rgb(13, 35, 133);
   border-radius: 31px;
   transform: scaleX(0);
   transform-origin: 100% 50%;
@@ -108,7 +108,7 @@ body {
     height: 51px;
     border-radius: 31px;
     border: none;
-    background-color: #F36732;
+    background-color: black;
     margin-top: 15px;
     padding: 15px 45px;
     color: white;
@@ -148,11 +148,11 @@ body {
     height: auto;
     margin: auto;
 }
-.start-register-div {
+.learn-more-div {
     max-width: 200px;
     width: 100%;
     height: auto;
-    background-color: #F46632;
+    background-color: black;
     border-radius: 20px;
     padding: 20px 40px;
     display: inline-block;
@@ -165,7 +165,7 @@ body {
     transition-duration: 0.3s;
     margin: 50px auto;
 }
-.start-register-div::before {
+.learn-more-div::before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -173,7 +173,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #000000;
+    background: rgb(13, 35, 133);
     border-radius: 20px;
     transform: scaleX(0);
     transform-origin: 100% 50%;
@@ -181,13 +181,13 @@ body {
     transition-duration: 0.3s;
     transition-timing-function: ease-out;
 }
-.start-register-div:hover, .start-register-div:focus, .start-register-div:active {
+.learn-more-div:hover, .learn-more-div:focus, .learn-more-div:active {
     color: white;
 }
-.start-register-div:hover:before, .start-register-div:focus:before, .start-register-div:active:before {
+.learn-more-div:hover:before, .learn-more-div:focus:before, .learn-more-div:active:before {
     transform: scaleX(1);
 } 
-.Start-Register {
+.learn-more {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
