@@ -598,7 +598,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
+    padding: 40px;
     margin: 20px auto;
     border-radius: 30px;
 }
@@ -607,16 +607,16 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     border-radius: 30px;
-    border: black solid 5px;
-    padding: 30px 80px;
+    border: rgb(20, 1, 87) solid 5px;
+    padding: 40px;
     font-family: 'Roboto', sans-serif;
-    background-color: black;
+    background-color: rgb(14, 1, 63);
     color: white;
     margin: 50px;
 }
 .dives:hover {
-    background-color: #F46632;
-    border-color: #F46632;
+    background-color: black;
+    border-color: black;
 }
 .three-div{
     display: flex;
@@ -627,7 +627,7 @@ input:checked + .slide-container .nav label { display: block; }
 .experience-title {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
     color: white;
 }
 .exp-box {
@@ -639,13 +639,16 @@ input:checked + .slide-container .nav label { display: block; }
     margin-left: 50px;
 }
 .exp-p {
-    max-width: 770px;
-    width: 100%;
+    max-width: 600px;
     height: auto;
     font-family: 'Roboto', sans-serif;
     line-height: 2;
     margin-top: 50px;
+    margin-bottom: 30px;
     color: white;
+    background-color: rgb(14, 1, 63);
+    border-radius: 30px;
+    padding: 20px;
 }
 .exp-photo {
     max-width: 243px;
@@ -661,7 +664,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 50px;
+    padding: 20px;
     margin: 20px auto;
     border-radius: 30px;
 }
@@ -684,12 +687,13 @@ input:checked + .slide-container .nav label { display: block; }
     color: white;
 }
 .about-paragraph:hover {
-    color: #F46632;
+    color: black;
 }
 .about-us {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;
     color: white;
+    margin: 30px;
 }
 .about-us:hover,
 .twitter:hover,
@@ -702,9 +706,9 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     margin: 50px auto;
-    background-color: black;
+    background-color: rgb(18, 2, 90);
     border-radius: 31px;
-    padding: 20px 45px;
+    padding: 40px;
 }
 
 /* section 7 */
