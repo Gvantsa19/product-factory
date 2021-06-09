@@ -881,7 +881,7 @@ input:focus {
 
 /* footer */
 .footer-block {
-    background-image: url(../images/photo-1557683316-973673baf926.jpg);
+    background-color: rgb(5, 5, 97);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
