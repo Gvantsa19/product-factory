@@ -874,10 +874,15 @@ input:focus {
 }
 /* progrmas-section */
 .programs-section1 {
-    margin-top: 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: rgb(5, 5, 68);
+    border-radius: 30px;
+    max-width: 1500px;
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
 }
 .programsP{
     max-width: 700px;
