@@ -767,11 +767,12 @@ input:checked + .slide-container .nav label { display: block; }
     color: black;
 }
 .course-fee-left-block {
-    max-width: 374px;
+    max-width: 500px;
     width: 100%;
     height: auto;
     background-color: rgb(16, 2, 65);
     border-radius: 30px;
+    padding: 20px;
 }
 .fee-toman {
     color: white;
@@ -787,25 +788,6 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .reg-titles-block {
     margin: 30px 50px;
-}
-.register-click {
-    max-width: 150px;
-    width: 100%;
-    height: auto;
-    background-color: black;
-    border-radius: 30px;
-    padding: 15px 30px;
-    margin: 50px auto;
-    white-space: nowrap;
-}
-.register-click:hover,
-.register-now:hover {
-    background-color: white;
-    color: black;
-}
-.register-now {
-    font-family: 'Roboto', sans-serif;
-    color: white;
 }
 /* section 8 */
 .registration-block {
