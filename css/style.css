@@ -557,7 +557,7 @@ input:checked + .slide-container .nav label { display: block; }
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding: 20px;
     margin: 20px auto;
     border-radius: 30px;
 }
@@ -581,7 +581,6 @@ input:checked + .slide-container .nav label { display: block; }
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 50px;
 }
 .experience-title {
     font-family: 'Roboto', sans-serif;
@@ -623,7 +622,6 @@ input:checked + .slide-container .nav label { display: block; }
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
     margin: 20px auto;
     border-radius: 30px;
 }
@@ -661,7 +659,7 @@ input:checked + .slide-container .nav label { display: block; }
     color: black;
 }
 .about-paragraph-div {
-    max-width: 1500px;
+    max-width: 1000px;
     width: 100%;
     height: auto;
     margin: 50px auto;
@@ -744,9 +742,6 @@ input:checked + .slide-container .nav label { display: block; }
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     margin-top: 20px;
-}
-.reg-titles-block {
-    margin: 30px 50px;
 }
 /* section 8 */
 .registration-block {
@@ -882,7 +877,6 @@ input:focus {
 .classes-main-block {
     width: 100%;
     height: 100%;
-    padding: 50px;
     margin-top: 50px;
 }
 .session {
