@@ -835,7 +835,6 @@ input:focus {
 
 /* footer */
 .footer-block {
-    /* background-image: url(../images/photo-1557683316-973673baf926.jpg); */
     background-color: rgb(6, 6, 107);
     background-repeat: no-repeat;
     background-size: cover;
@@ -926,8 +925,6 @@ input:focus {
     line-height: 2;
     margin: auto;
     color: white;
-    background-color: rgb(3, 3, 114);
-    border-radius: 40px;
     padding: 20px;
 }
 .session-masters-photos {
@@ -941,4 +938,7 @@ input:focus {
     max-width: 500px;
     width: 100%;
     height: 500px;
+}
+.sessionReg {
+    margin-right: 30px;
 }
