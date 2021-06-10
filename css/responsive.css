@@ -44,6 +44,10 @@
     .prj-block {
         margin-top: 20px;
     }
+    .sessionReg {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 950px){
     .footer-email-block {
