@@ -445,6 +445,11 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 20px auto;
     border-radius: 30px;
 }
+.titleandlottie {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .lottie2 {
     max-width: 300px;
     width: 100%;
