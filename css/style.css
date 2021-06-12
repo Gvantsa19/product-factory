@@ -4,7 +4,7 @@ html {
         scroll-snap-type: y mandatory;
 }
 body {
-    background-color: rgb(3, 3, 65);
+    background-color: #0C0F32;
 }
 /* header */
 .burger-icon {
@@ -1071,7 +1071,8 @@ input:focus {
 .session-masters-photos {
     border-radius: 30px;
 }
-.dates {
+.dates,
+.title2 {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -1088,4 +1089,43 @@ input:focus {
     width: 100%;
     height: auto;
     margin: 50px auto;
+}
+/* portfolio */
+.portfolio-main-block {
+    margin-top: 212px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.title1 {
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.nav-li {
+    font-size: 22px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.works {
+    color: #3D37F1;
+}
+.portf-list {
+    margin-top: 90px;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+}
+.works-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+.work-design {
+    margin-top: 20px;
 }
