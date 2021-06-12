@@ -309,7 +309,7 @@ body {
     font-family: 'Roboto', sans-serif;
     margin-top: 30px;
     margin-left: 10px;
-    color: white;
+    color: white;margin-bottom: 30px;
 }
 .prj-block1 {
     max-width: 370px;
@@ -317,6 +317,8 @@ body {
     height: 450px;
     background-color: #C66B0E;
     border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .prj-block2{
     max-width: 370px;
@@ -324,6 +326,8 @@ body {
     height: 450px;
     background-color: #05534F;
     border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .prj-block3 {
     max-width: 370px;
@@ -331,6 +335,8 @@ body {
     height: 450px;
     background-color: #5A21DF;
     border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .prj-block4 {
     max-width: 370px;
@@ -338,6 +344,8 @@ body {
     height: 450px;
     background-color: #1361B9;
     border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .prj-block5 {
     max-width: 370px;
@@ -345,6 +353,8 @@ body {
     height: 450px;
     background-color: #A5A2F6;
     border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
 }
 .prj-block6 {
     max-width: 370px;
@@ -352,6 +362,12 @@ body {
     height: 450px;
     background-color: #AC0D17;
     border-radius: 30px;
+    padding: 10px;
+}
+.project-blocks-photos {
+    max-width: 100px;
+    width: 100%;
+    margin: 20px auto;
 }
 .read-more {
     max-width: 130px;
@@ -360,6 +376,8 @@ body {
     background-color: white;
     border-color: white;
     border-radius: 30px;
+    padding: 12px 30px;
+    margin: 50px auto;
 }
 /* carousel */
 .carousel {
