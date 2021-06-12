@@ -179,18 +179,6 @@ body {
 .titles-on-header {
     margin: 50px auto;
 }
-.main-block-paragraph {
-    font-size: 23px;
-    font-family: 'PT Serif', serif;
-    margin-top: 60px;
-    font-weight: bolder;
-}
-.main-block-paragraph-div {
-    max-width: 500px;
-    width: 100%;
-    height: auto;
-    margin: auto;
-}
 .learn-more-div {
     max-width: 200px;
     width: 100%;
@@ -300,9 +288,6 @@ body {
     font-family: 'Roboto', sans-serif;
     color: white;
     margin-top: 50px;
-}
-.svg-photos {
-    margin: 20px 30%;
 }
 .correct-list {
     font-size: 20px;
