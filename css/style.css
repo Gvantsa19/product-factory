@@ -1127,5 +1127,8 @@ input:focus {
     height: auto;
 }
 .work-design {
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.templates {
+    border-radius: 20px;
 }
