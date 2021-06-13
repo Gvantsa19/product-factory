@@ -1107,6 +1107,7 @@ input:focus {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding-bottom: 80px;        
 }
 .session-paragraph {
     max-width: 885px;
@@ -1119,6 +1120,10 @@ input:focus {
 }
 .session-masters-photos {
     border-radius: 30px;
+    max-width: 200px;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 80px;
 }
 .dates,
 .title2 {
