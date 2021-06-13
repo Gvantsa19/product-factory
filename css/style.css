@@ -363,6 +363,8 @@ body {
     border-radius: 30px;
     padding: 12px 30px;
     margin: 50px auto;
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
 }
 /* carousel */
 .carousel {
