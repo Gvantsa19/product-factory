@@ -721,12 +721,19 @@ input:checked + .slide-container .nav label { display: block; }
     width: 100%;
     height: auto;
     border-radius: 30px;
-    border: rgb(20, 1, 87) solid 5px;
     padding: 40px;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(14, 1, 63);
     color: white;
     margin: 50px;
+}
+.div1 {
+    background-color: #05534F;
+}
+.div2 {
+    background-color: #5A21DF;
+}
+.div3{
+    background-color: #1361B9;
 }
 .dives:hover {
     background-color: black;
