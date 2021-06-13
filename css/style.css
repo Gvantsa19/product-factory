@@ -249,7 +249,8 @@ body {
 .faq-photo,
 .experi-ph,
 .about-us-photo,
-.reg-img {
+.reg-img,
+.image {
     width: 100%;
 }
 /* section 1 */
