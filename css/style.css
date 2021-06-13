@@ -835,7 +835,7 @@ input:checked + .slide-container .nav label { display: block; }
 .twitter:hover,
 .facebook:hover,
 .instagram:hover {
-    color: black;
+    color: #1361B9;
 }
 .about-paragraph-div {
     max-width: 1000px;
