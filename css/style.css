@@ -974,11 +974,6 @@ input:checked + .slide-container .nav label { display: block; }
 .form-text {
     margin-left: 10px;
 }
-.registration-forms {
-    max-width: 721px;
-    width: 100%;
-    height: auto;
-}
 .form-text {
     color: white;
     font-family: 'Roboto', sans-serif;
