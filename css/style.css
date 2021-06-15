@@ -829,9 +829,6 @@ input:checked + .slide-container .nav label { display: block; }
     line-height: 2;
     color: white;
 }
-.about-paragraph:hover {
-    color: black;
-}
 .about-us {
     font-family: 'Roboto', sans-serif;
     font-size: 42px;

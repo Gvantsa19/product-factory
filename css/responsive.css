@@ -78,6 +78,12 @@
         margin-top: 100px;
     }
 }
+@media (max-width: 535px){
+    .helpf-links {
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+}
 @media (max-width: 410px){
     .helpf-links {
         margin-top: 30px;
