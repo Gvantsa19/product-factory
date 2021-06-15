@@ -358,13 +358,20 @@ body {
     max-width: 130px;
     width: 100%;
     height: 45px;
-    background-color: white;
-    border-color: white;
+    border: 2px solid white;
     border-radius: 30px;
     padding: 12px 30px;
     margin: 50px auto;
     font-family: 'Roboto', sans-serif;
     white-space: nowrap;
+}
+.read {
+    color: white;
+}
+.read-more:hover,
+.read:hover {
+    background-color: white;
+    color: black;
 }
 /* carousel */
 .carousel {
