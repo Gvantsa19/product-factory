@@ -1,16 +1,3 @@
-@media (max-width: 1400px){
-    .gallery {
-        margin-top: 30px;
-    }
-    .reg-img {
-        margin-top: 20px;
-    }
-}
-@media (max-width: 1234px){ 
-    .course-fee-left-block {
-        margin-top: 30px;
-    }
-}
 @media (max-width: 1130px){
     .wrapper, 
     ul{
@@ -54,28 +41,16 @@
         margin-top: 30px;
     }
 }
-@media (max-width: 804px){
-    .registration-image {
-        margin-top: 20px;
-    }
-}
 @media (max-width: 650px){
     .right-block-main-title {
         font-size: 35px;
-    }
-    .left-block {
-        margin-top: 50px;
     }
     .course-fee-answers,
     .faq-questions {
         font-size: 15px;
     }
-    .page,
     .faq-block {
         margin-top: 30px;
-    }
-    .gallery-cell {
-        margin-top: 100px;
     }
 }
 @media (max-width: 535px){
