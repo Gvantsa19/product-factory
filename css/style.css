@@ -248,6 +248,12 @@ body {
         flex-wrap: wrap;
     padding: 30px;
 }
+.project-titles {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
 .project-blocks {
     max-width: 1150px;
     width: 100%;
@@ -593,6 +599,12 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 20px auto;
     border-radius: 30px;
 }
+.mastertitle {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+}
 .masters-blocks {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -700,6 +712,13 @@ input:checked + .slide-container .nav label { display: block; }
     margin: 20px auto;
     border-radius: 30px;
 }
+.experientetitle {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    white-space: nowrap;
+}
 .dives {
     max-width: 360px;
     width: 100%;
@@ -735,7 +754,6 @@ input:checked + .slide-container .nav label { display: block; }
 .experience-title {
     font-family: 'Roboto', sans-serif;
     font-size: 40px;
-    margin-top: 40px;
     color: white;
 }
 .exp-box {
@@ -1067,6 +1085,7 @@ input:focus {
     width: 100%;
     height: 200px;
     margin-bottom: 80px;
+    margin-left: 20px;
 }
 .dates,
 .title2 {
@@ -1134,6 +1153,9 @@ input:focus {
 }
 .success-titles {
     margin: 50px auto;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
 .success {
     max-width: 185px;
