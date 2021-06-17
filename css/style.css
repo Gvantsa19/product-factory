@@ -753,7 +753,7 @@ input:checked + .slide-container .nav label { display: block; }
 }
 .experience-title {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 .exp-box {
@@ -1024,7 +1024,7 @@ input:focus {
         justify-content: space-around;
     width: 100%;
     height: auto;
-    margin: 70px auto;
+    margin: 90px auto;
     align-items: center;
 }
 .programsP{
