@@ -43,6 +43,13 @@
         margin-top: 30px;
     }
 }
+@media (max-width: 790px){
+    .course-fee-li:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.0);
+    }
+}
 @media (max-width: 650px){
     .right-block-main-title {
         font-size: 35px;
@@ -59,6 +66,11 @@
     .helpf-links {
         margin-top: 20px;
         margin-bottom: 15px;
+    }
+    .course-fee-li:hover {
+        -ms-transform: scale(1.1); /* IE 9 */
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+        transform: scale(1.1);
     }
 }
 @media (max-width: 410px){
