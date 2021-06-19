@@ -1,3 +1,8 @@
+@media (max-width: 1245px){
+    .register {
+        display: none;
+    }
+}
 @media (max-width: 1130px){
     .wrapper, 
     ul{
@@ -24,9 +29,6 @@
     } 
     .dives {
         margin-top: 50px;
-    }
-    .register {
-        display: none;
     }
     .prj-block {
         margin-top: 20px;
